@@ -1,0 +1,27 @@
+{
+  "name": "ksi-web-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-eslint": "eslint src/**/*.js",
+    "start": "npx babel-node src/app.js",
+    "node-example": "npx babel-node example/nodeExample.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "cors": "^2.8.5",
+    "eslint": "^7.4.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
